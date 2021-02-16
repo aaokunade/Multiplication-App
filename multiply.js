@@ -2,6 +2,9 @@ const inputsAns = document.querySelector(".ansInputs");
 const inputsRandom = document.querySelector(".randomInputs");
 const nextBtn = document.querySelector(".next")
 nextBtn.addEventListener("click", nextFunc);
+const delBtn = document.querySelector(".del")
+delBtn.addEventListener("click", delFunc);
+
 let inputBtn = document.querySelectorAll(".inputs");
 
     inputBtn.forEach(function(btn){
@@ -59,4 +62,9 @@ function nextFunc(){
         alert(outputs2Funct(outputs2))
     }
 
+}
+
+function delFunc(btn){    
+        inputsAns.value = "";
+        console.log(inputsAns.value);
 }
