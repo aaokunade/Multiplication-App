@@ -55,7 +55,7 @@ p{
     margin-bottom: 1rem;
     
 }
-.inputs{
+.inputs, .next, .del{
     width: 50%;
     margin: 1rem;
     text-align: center;
