@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(184, 147, 218);
+    max-width: 100%;
+    max-height: 100%;
+}
+#main{
+    width:100%;
+    background-color: burlywood;
+    margin: 1rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+#testAns{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+#test{
+    float: left;
+    min-width: 60%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border: 0.2rem solid rgb(0, 174, 255)
+}
+
+.randomInputs, .ansInputs {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#ans{
+    float:left;
+    min-width: 40%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border: 0.2rem solid rgb(0, 174, 255)
+}
+
+p{
+    font-size: XX-large;
+    font-family: cursive;
+    text-align: center;
+}
+
+#numInput {    
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+    
+}
+.inputs{
+    width: 50%;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+/* Use a media query to add a breakpoint at 768px: */
+@media screen and (min-width: 420px) {
+       #main{
+        width:50%;
+        background-color: burlywood;
+        margin: 1rem;
+        padding: 2rem;
+        margin: auto;
+    }
+}
+
+  /* Use a media query to add a breakpoint at 1024px: */
+@media screen and (min-width: 768px) {
+        #main{
+        width:50%;
+        background-color: burlywood;
+        margin: 1rem;
+        padding: 2rem;
+        margin: auto;
+    }
+}
+
+/* Use a media query to add a breakpoint at 420px: */
+/* @media screen and (max-width: 420px) {
+    #main{
+     width:100%;
+     background-color: burlywood;
+     margin: 1rem;
+     padding: 2rem;
+     margin: auto;
+ }
+} */
