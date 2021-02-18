@@ -65,6 +65,6 @@ function nextFunc(){
 }
 
 function delFunc(btn){    
-        inputsAns.value = "";
+        inputsAns.value = inputsAns.value.substring(0,inputsAns.value.length - 1);
         console.log(inputsAns.value);
 }
